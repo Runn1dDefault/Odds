@@ -1,0 +1,282 @@
+[
+  {
+    "category": "Soccer",
+    "categoryID": "6",
+    "categoryURL": "https://smarkets.com/sport/football",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]",
+      "//a[@class=\"title \"]"
+    ],
+    "lay_xpath": "//div[contains(@class, \"contract-items\")]/span//span[@class=\"bid\"]/span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Tennis",
+    "categoryID": "7",
+    "categoryURL": "https://smarkets.com/sport/tennis",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Football",
+    "categoryID": "1",
+    "categoryURL": "https://smarkets.com/sport/american-football",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Basketball",
+    "categoryID": "3",
+    "categoryURL": "https://smarkets.com/sport/basketball",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Cricket",
+    "categoryID": "13",
+    "categoryURL": "https://smarkets.com/sport/cricket",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Boxing",
+    "categoryID": "9",
+    "categoryURL": "https://smarkets.com/sport/boxing",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Cycling",
+    "categoryID": "23",
+    "categoryURL": "https://smarkets.com/sport/cycling",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Darts",
+    "categoryID": "15",
+    "categoryURL": "https://smarkets.com/sport/darts",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Esports",
+    "categoryID": "10",
+    "categoryURL": "https://smarkets.com/sport/esports",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Golf",
+    "categoryID": "8",
+    "categoryURL": "https://smarkets.com/sport/golf",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Handball",
+    "categoryID": "12",
+    "categoryURL": "https://smarkets.com/sport/handball",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Ice Hockey",
+    "categoryID": "2",
+    "categoryURL": "https://smarkets.com/sport/ice-hockey",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "MMA",
+    "categoryID": "5",
+    "categoryURL": "https://smarkets.com/sport/mma",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Motorsports",
+    "categoryID": "26",
+    "categoryURL": "https://smarkets.com/sport/motorsports",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Rugby League",
+    "categoryID": "27",
+    "categoryURL": "https://smarkets.com/sport/rugby-league",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Rugby Union",
+    "categoryID": "27",
+    "categoryURL": "https://smarkets.com/sport/rugby",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Snooker",
+    "categoryID": "17",
+    "categoryURL": "https://smarkets.com/sport/snooker",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Table Tennis",
+    "categoryID": "14",
+    "categoryURL": "https://smarkets.com/sport/table-tennis",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "TV and Specials",
+    "categoryID": "28",
+    "categoryURL": "https://smarkets.com/tv-and-entertainment",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  },
+  {
+    "category": "Volleyball",
+    "categoryID": "11",
+    "categoryURL": "https://smarkets.com/sport/volleyball",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span//text()",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]//text()",
+      "//a[@class=\"title \"]//text()"
+    ],
+    "lay_xpath": "//span[@class=\"bid\"]//span[contains(@class, \"price\")]"
+  }
+]

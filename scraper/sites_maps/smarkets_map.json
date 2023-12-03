@@ -1,0 +1,16 @@
+[
+  {
+    "category": "Soccer",
+    "categoryID": "6",
+    "categoryURL": "https://smarkets.com/sport/football",
+    "items_xpath": "//ul[contains(@class, \"event-list\")]/li",
+    "item_url_xpath": "//a[@class=\"overlay\"]/@href",
+    "team_label_xpath": "//div[contains(@class, \"contract-items\")]/span[contains(@class, \"contract-label\")]",
+    "match_name_xpath": [
+      "//div[@class=\"teams\"]//span",
+      "//div[@class=\"contract-name-column\"]//span[@class=\"formatted-content\"]",
+      "//a[@class=\"title \"]"
+    ],
+    "lay_xpath": "//div[contains(@class, \"contract-items\")]/span//span[@class=\"bid\"]/span[contains(@class, \"price\")]"
+  }
+]

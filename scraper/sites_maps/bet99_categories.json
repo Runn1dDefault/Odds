@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 75,
+    "category": "Football",
+    "categoryID": "1"
+  },
+  {
+    "Id": 70,
+    "category": "Hockey",
+    "categoryID": "2"
+  },
+  {
+    "Id": 67,
+    "category": "Basketball",
+    "categoryID": "3"
+  },
+  {
+    "Id": 84,
+    "category": "MMA",
+    "categoryID": "5"
+  },
+  {
+    "Id": 66,
+    "category": "Soccer",
+    "categoryID": "6"
+  },
+  {
+    "Id": 68,
+    "category": "Tennis",
+    "categoryID": "7"
+  },
+  {
+    "Id": 85,
+    "category": "Golf",
+    "categoryID": "8"
+  },
+  {
+    "Id": 71,
+    "category": "Boxing",
+    "categoryID": "9"
+  },
+  {
+    "Id": 145,
+    "category": "E-sports +",
+    "categoryID": "10"
+  },
+  {
+    "Id": 69,
+    "category": "Volleyball",
+    "categoryID": "11"
+  },
+  {
+    "Id": 73,
+    "category": "Handball",
+    "categoryID": "12"
+  },
+  {
+    "Id": 74,
+    "category": "Cricket",
+    "categoryID": "13"
+  },
+  {
+    "Id": 78,
+    "category": "Darts",
+    "categoryID": "15"
+  },
+  {
+    "Id": 81,
+    "category": "Snooker",
+    "categoryID": "17"
+  },
+  {
+    "Id": 89,
+    "category": "Cycling",
+    "categoryID": "23"
+  },
+  {
+    "Id": 103,
+    "category": "Motorsports",
+    "categoryID": "26"
+  },
+  {
+    "Id": 102,
+    "category": "Rugby",
+    "categoryID": "27"
+  },
+  {
+    "Id": 90,
+    "category": "Specials",
+    "categoryID": "28"
+  }
+]
